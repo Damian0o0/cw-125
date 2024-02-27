@@ -1,0 +1,12 @@
+Console.WriteLine("Podaj jakas liczbe naturalna: "); 
+        int zmienna1 = Convert.ToInt32(Console.ReadLine()); 
+        int zmiennanaturalna = 1; 
+        int i = 0; 
+        int zmienna3 = 0; 
+        while (i < zmienna1) 
+        {
+              i += zmiennanaturalna; 
+              zmiennanaturalna++; 
+              zmienna3++; 
+        }
+        Console.WriteLine("Jesli chcemy dostac wynik o wartosci conajmniej takiej jakiej, zazada uzytkownik " + zmienna1 + " to trzeba zsumowac " + zmienna3 + " kolejnych liczb naturalnych.");
